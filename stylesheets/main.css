@@ -1,0 +1,104 @@
+/*HEADER-MOBILE*/
+header {
+  background-color: #F4F1EA;
+  overflow: hidden; }
+  header .logo img {
+    height: 50px;
+    float: left;
+    margin-top: 6px; }
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  header nav li {
+    float: left;
+    display: inline-block; }
+  header nav a {
+    background-color: #F4F1EA;
+    color: #00635D;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    text-align: left; }
+  header nav a:hover {
+    background-color: #00635D;
+    color: #F4F1EA; }
+  header nav .dropdown {
+    position: absolute; }
+  header nav .drop-nav {
+    position: absolute;
+    display: none; }
+  header nav .drop-nav li {
+    width: 150px;
+    margin: 0; }
+  header nav .dropdown:hover .drop-nav {
+    display: block; }
+  header form {
+    float: right;
+    margin-top: 10px; }
+
+input {
+  outline: none; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  font-family: inherit;
+  font-size: 100%; }
+
+input::-webkit-search-cancel-button,
+input::-webkit-search-decoration {
+  display: none; }
+
+input[type=search] {
+  background: #ededed url("../assets/icons/icon_magnifier.png") no-repeat 9px center;
+  border: solid 1px #ccc;
+  padding: 9px 10px 9px 32px;
+  width: 100px;
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  border-radius: 10em;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s; }
+
+input[type=search]:focus {
+  width: 130px;
+  background-color: #fff;
+  border-color: #00635D;
+  -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
+  -moz-box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
+  box-shadow: 0 0 5px rgba(109, 207, 246, 0.5); }
+
+input:-moz-placeholder {
+  color: #999; }
+
+input::-webkit-input-placeholder {
+  color: #999; }
+
+main .my-books {
+  color: #00635D;
+  font-family: serif;
+  margin-left: 40px; }
+main .my-books h1 {
+  margin: 5px 0; }
+main .alchemist,
+main .happiness,
+main .junky,
+main .lion,
+main .myth,
+main .screwtape,
+main .siddhartha,
+main .sincity,
+main .slaughterhouse {
+  height: 250px;
+  margin-left: 40px;
+  margin-right: 10px;
+  margin-bottom: 20px; }
+main .container-books {
+  display: flex;
+  align-content: flex-start; }
+main .stars {
+  height: 35px; }
+
+/*# sourceMappingURL=main.css.map */

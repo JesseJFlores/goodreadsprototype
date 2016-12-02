@@ -1,0 +1,13 @@
+@mixin books-dimensions {
+  height: 250px;
+  margin-left: 40px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+@mixin books-flex {
+  display: flex;
+  align-content: flex-start;
+}
+
+// SECTION
